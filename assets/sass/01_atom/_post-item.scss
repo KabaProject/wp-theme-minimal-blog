@@ -1,0 +1,17 @@
+.post-item{
+
+    &__img{
+        height: 198px;
+    }
+
+    &__info{
+        & > *{
+            color: var(--white-text);
+            opacity: 0.8;
+        }
+    }
+
+    &__title{
+        color: var(--white-text);
+    }
+}

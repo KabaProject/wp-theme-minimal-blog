@@ -1,0 +1,11 @@
+.posts{
+    &__items{
+        grid-template-columns: repeat(3, 300px);
+    }
+
+    &__button{
+        max-width: 283px;
+        background-color: var(--primary);
+        color: white;
+    }
+}
