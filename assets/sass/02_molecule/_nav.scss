@@ -1,0 +1,9 @@
+.nav{
+    height: 60px;
+    padding: 0 24px;
+    background-color: var(--primary);
+
+    &__brand{
+        color: var(--primary-text);
+    }
+}

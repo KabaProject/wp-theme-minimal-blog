@@ -1,0 +1,9 @@
+.search-bar{
+    width: 220px;
+    background-color: var(--secondary);
+
+    & > *{
+        color: white;
+    }
+
+}
