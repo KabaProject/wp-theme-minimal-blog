@@ -1,7 +1,8 @@
 @import 'normalize',
         'tailwind',
         'typography',
-        'colors';
+        'colors',
+        'font-mixin';
 
 *{
     font-family: 'Poppins', sans-serif;
