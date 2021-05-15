@@ -1,0 +1,28 @@
+%content{
+    & >{
+        & h1{
+            @include font-mixin(32, 6);
+        }
+        & h2{
+            @include font-mixin(24, 6);
+        }
+        & h3{
+            @include font-mixin(22, 6);
+        }
+        & h4{
+            @include font-mixin(20, 5);
+        }
+        & h5{
+            @include font-mixin(18, 5);
+        }
+        & h6{
+            @include font-mixin(16, 5);
+        }
+        & p, em, span, i, u{
+            @include font-mixin(16, 4);
+        }
+        & strong, b{
+            @include font-mixin(16, 6);
+        }
+    }
+}

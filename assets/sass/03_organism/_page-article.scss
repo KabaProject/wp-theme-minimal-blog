@@ -1,0 +1,19 @@
+@import '../01_atom/content';
+
+.page-article{
+    grid-template-columns: 500px 590px;
+
+    &__img{
+        height: 340px;
+    }
+
+    &__content{
+        @extend %content;
+
+        & > {
+            & h1, & h2, & h3, & h4, & h5, & h6{
+                width: 90%;
+            }
+        }
+    }
+}

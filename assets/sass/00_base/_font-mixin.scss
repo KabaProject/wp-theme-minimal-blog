@@ -1,0 +1,6 @@
+@mixin font-mixin($size, $weight){
+    font-size: ($size / 16 * 1rem);
+    line-height: ($size / 16 * 1.5rem);
+    font-weight: $weight*100;
+    margin-bottom: ($size / 16 * 0.5rem);
+}
